@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="post" action="">
+	用户名：<input type="text" id="" value="" name="username" />
+	密码： <input type="password" name="password" />
+	验证码：<img src="{:captcha_src()}" alt="captcha" onclick="this.src=this.src+'?'+Math.random()" />
+	<input type="text" name="code">
+	<input type="submit">
+
+</form>
+
+</body>
+</html>
